@@ -27,7 +27,7 @@ const cardItems = [
 
 function shuffleCards(array){
     const shuffled = array.sort(() => (Math.random() > 0.5 ? 1 : -1))
-    console.log(shuffled)
+    return shuffled
 }
 
-shuffleCards(cardItems) // Embaralha as cartas antes de iniciar o jogo.
+const cards = shuffleCards(cardItems) // Embaralha as cartas antes de iniciar o jogo.
