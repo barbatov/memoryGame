@@ -16,6 +16,7 @@ body{
 
 .game-container{
     min-width: 544px;
+    max-width: 544px;
 }
 
 .game-header{
@@ -46,11 +47,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .revealed{
     background-color: #fff;
     border-color: #dadada;
+    cursor: not-allowed;
 
 }
 
@@ -61,6 +64,7 @@ body{
 
 .revealed .card-emoji{
     display: block;
+
 }
 
 .button{
